@@ -1,0 +1,5 @@
+book_filename: "bookdown_121520"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Chapter "
