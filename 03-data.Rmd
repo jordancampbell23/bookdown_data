@@ -2,7 +2,7 @@
 
 We describe our methods in this chapter.
 
-## Reading In and Returning Data
+## Reading and Returning Data
 
 ### readr
 

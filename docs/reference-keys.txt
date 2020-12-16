@@ -8,7 +8,7 @@ plotly
 ramcharts
 echarts4r
 data
-reading-in-and-returning-data
+reading-and-returning-data
 readr
 dt
 data-wrangling
