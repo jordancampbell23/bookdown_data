@@ -1,5 +1,6 @@
 book_filename: "bookdown_121520"
 delete_merged_file: true
+output_dir: "docs"
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name: "Section "
