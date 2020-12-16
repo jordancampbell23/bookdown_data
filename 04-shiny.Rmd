@@ -1,0 +1,26 @@
+# shiny
+
+Some _significant_ applications are demonstrated in this chapter.
+
+## Introduction
+
+## UI & Server
+
+## Interactivity
+
+## Basic Demo
+
+## Complex Demo
+
+
+
+```{r}
+
+
+knitr::include_app('https://reason.shinyapps.io/az_ed/', height = '600px')
+
+
+```
+
+
+## Examples

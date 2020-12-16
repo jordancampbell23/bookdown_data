@@ -1,0 +1,14 @@
+# Charting
+
+Here is a review of existing methods.
+
+## ggplot2
+
+
+## plotly
+
+
+## rAmCharts
+
+
+## echarts4r

@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Data Visualization Guide</title>
+  <title>Section 5 shiny | Data Visualization Guide</title>
   <meta name="description" content="This is bookdown document serves as a R data visualization and learning guide." />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Data Visualization Guide" />
+  <meta property="og:title" content="Section 5 shiny | Data Visualization Guide" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Data Visualization Guide" />
+  <meta name="twitter:title" content="Section 5 shiny | Data Visualization Guide" />
   
   <meta name="twitter:description" content="This is bookdown document serves as a R data visualization and learning guide." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="intro.html"/>
+<link rel="prev" href="data.html"/>
+<link rel="next" href="mapping.html"/>
 <script src="libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -199,29 +199,39 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Data Visualization Guide</h1>
-<p class="author"><em>Jordan Campbell</em></p>
-<p class="date"><em>2020-12-15</em></p>
+<div id="shiny" class="section level1" number="5">
+<h1><span class="header-section-number">Section 5</span> shiny</h1>
+<p>Some <em>significant</em> applications are demonstrated in this chapter.</p>
+<div id="introduction" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Introduction</h2>
 </div>
-<div id="home" class="section level1" number="1">
-<h1><span class="header-section-number">Section 1</span> Home</h1>
-<p>This is a <em>sample</em> book written in <strong>Markdown</strong>. You can use anything that Pandoc’s Markdown supports, e.g., a math equation <span class="math inline">\(a^2 + b^2 = c^2\)</span>.</p>
-<p>The <strong>bookdown</strong> package can be installed from CRAN or Github:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="index.html#cb1-1" aria-hidden="true"></a><span class="kw">install.packages</span>(<span class="st">&quot;bookdown&quot;</span>)</span>
-<span id="cb1-2"><a href="index.html#cb1-2" aria-hidden="true"></a><span class="co"># or the development version</span></span>
-<span id="cb1-3"><a href="index.html#cb1-3" aria-hidden="true"></a><span class="co"># devtools::install_github(&quot;rstudio/bookdown&quot;)</span></span></code></pre></div>
-<p>Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading <code>#</code>.</p>
-<p>To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <a href="https://yihui.org/tinytex/" class="uri">https://yihui.org/tinytex/</a>.</p>
+<div id="ui-server" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> UI &amp; Server</h2>
+</div>
+<div id="interactivity" class="section level2" number="5.3">
+<h2><span class="header-section-number">5.3</span> Interactivity</h2>
+</div>
+<div id="basic-demo" class="section level2" number="5.4">
+<h2><span class="header-section-number">5.4</span> Basic Demo</h2>
+</div>
+<div id="complex-demo" class="section level2" number="5.5">
+<h2><span class="header-section-number">5.5</span> Complex Demo</h2>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="shiny.html#cb4-1" aria-hidden="true"></a>knitr<span class="op">::</span><span class="kw">include_app</span>(<span class="st">&#39;https://reason.shinyapps.io/az_ed/&#39;</span>, <span class="dt">height =</span> <span class="st">&#39;600px&#39;</span>)</span></code></pre></div>
+<iframe src="https://reason.shinyapps.io/az_ed/?showcase=0" width="672" height="600px">
+</iframe>
+</div>
+<div id="examples" class="section level2" number="5.6">
+<h2><span class="header-section-number">5.6</span> Examples</h2>
 
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="intro.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="data.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="mapping.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

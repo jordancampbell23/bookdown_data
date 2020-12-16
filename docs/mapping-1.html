@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Data Visualization Guide</title>
+  <title>Section 7 Mapping | Data Visualization Guide</title>
   <meta name="description" content="This is bookdown document serves as a R data visualization and learning guide." />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Data Visualization Guide" />
+  <meta property="og:title" content="Section 7 Mapping | Data Visualization Guide" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Data Visualization Guide" />
+  <meta name="twitter:title" content="Section 7 Mapping | Data Visualization Guide" />
   
   <meta name="twitter:description" content="This is bookdown document serves as a R data visualization and learning guide." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="intro.html"/>
+<link rel="prev" href="mapping.html"/>
+<link rel="next" href="references.html"/>
 <script src="libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -170,14 +170,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="6.1" data-path="mapping.html"><a href="mapping.html#ggplot2-1"><i class="fa fa-check"></i><b>6.1</b> ggplot2</a></li>
 <li class="chapter" data-level="6.2" data-path="mapping.html"><a href="mapping.html#leaflet"><i class="fa fa-check"></i><b>6.2</b> leaflet</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="testing.html"><a href="testing.html"><i class="fa fa-check"></i><b>7</b> Testing</a>
+<li class="chapter" data-level="7" data-path="mapping-1.html"><a href="mapping-1.html"><i class="fa fa-check"></i><b>7</b> Mapping</a>
 <ul>
-<li class="chapter" data-level="7.1" data-path="testing.html"><a href="testing.html#images"><i class="fa fa-check"></i><b>7.1</b> Images</a></li>
-<li class="chapter" data-level="7.2" data-path="testing.html"><a href="testing.html#videos"><i class="fa fa-check"></i><b>7.2</b> Videos</a></li>
-<li class="chapter" data-level="7.3" data-path="testing.html"><a href="testing.html#graphs"><i class="fa fa-check"></i><b>7.3</b> Graphs</a></li>
-<li class="chapter" data-level="7.4" data-path="testing.html"><a href="testing.html#compact-shiny"><i class="fa fa-check"></i><b>7.4</b> Compact Shiny</a></li>
+<li class="chapter" data-level="7.1" data-path="mapping-1.html"><a href="mapping-1.html#ggplot2-2"><i class="fa fa-check"></i><b>7.1</b> ggplot2</a></li>
+<li class="chapter" data-level="7.2" data-path="mapping-1.html"><a href="mapping-1.html#leaflet-1"><i class="fa fa-check"></i><b>7.2</b> leaflet</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="full-screen-shiny.html"><a href="full-screen-shiny.html"><i class="fa fa-check"></i><b>8</b> Full Screen Shiny</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://reason.org/" target="blank">Reason Foundation</a></li>
@@ -199,29 +196,27 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Data Visualization Guide</h1>
-<p class="author"><em>Jordan Campbell</em></p>
-<p class="date"><em>2020-12-15</em></p>
+<div id="mapping-1" class="section level1" number="7">
+<h1><span class="header-section-number">Section 7</span> Mapping</h1>
+<p>Mapping</p>
+<div id="ggplot2-2" class="section level2" number="7.1">
+<h2><span class="header-section-number">7.1</span> ggplot2</h2>
 </div>
-<div id="home" class="section level1" number="1">
-<h1><span class="header-section-number">Section 1</span> Home</h1>
-<p>This is a <em>sample</em> book written in <strong>Markdown</strong>. You can use anything that Pandoc’s Markdown supports, e.g., a math equation <span class="math inline">\(a^2 + b^2 = c^2\)</span>.</p>
-<p>The <strong>bookdown</strong> package can be installed from CRAN or Github:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="index.html#cb1-1" aria-hidden="true"></a><span class="kw">install.packages</span>(<span class="st">&quot;bookdown&quot;</span>)</span>
-<span id="cb1-2"><a href="index.html#cb1-2" aria-hidden="true"></a><span class="co"># or the development version</span></span>
-<span id="cb1-3"><a href="index.html#cb1-3" aria-hidden="true"></a><span class="co"># devtools::install_github(&quot;rstudio/bookdown&quot;)</span></span></code></pre></div>
-<p>Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading <code>#</code>.</p>
-<p>To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <a href="https://yihui.org/tinytex/" class="uri">https://yihui.org/tinytex/</a>.</p>
+<div id="leaflet-1" class="section level2" number="7.2">
+<h2><span class="header-section-number">7.2</span> leaflet</h2>
+<iframe src="https://reason.shinyapps.io/texas_ed_rev/" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+Your browser doesn’t support iframes
+</iframe>
 
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="intro.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="mapping.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -263,7 +258,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["bookdown_121520.pdf", "bookdown_121520.epub"],
+"download": null,
 "toc": {
 "collapse": "subsection"
 }

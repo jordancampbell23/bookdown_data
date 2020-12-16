@@ -1,0 +1,25 @@
+# Data
+
+We describe our methods in this chapter.
+
+## Reading In and Returning Data
+
+### readr
+
+### DT
+
+## Data Wrangling
+
+### dplyr
+
+#### filter()
+
+#### select()
+
+#### mutate()
+
+#### group_by() & summarise()
+
+#### left_join, right_join, & full_join
+
+#### pivot_longer & pivot_wider
