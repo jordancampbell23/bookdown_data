@@ -31,7 +31,8 @@ ggplot2-1
 leaflet
 testing
 images
+gifs
 videos
-graphs
+r-code
 compact-shiny
 full-screen-shiny

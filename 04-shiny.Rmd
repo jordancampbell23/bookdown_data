@@ -12,15 +12,4 @@ Some _significant_ applications are demonstrated in this chapter.
 
 ## Complex Demo
 
-
-
-```{r}
-
-
-knitr::include_app('https://reason.shinyapps.io/az_ed/', height = '600px')
-
-
-```
-
-
 ## Examples
