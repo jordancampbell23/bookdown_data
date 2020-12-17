@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body, div, p, h1, h2, h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+code, pre{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sourceCode{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 p.caption {
   color: #777;
   margin-top: 10px;
@@ -8,7 +22,112 @@ p code {
 pre {
   word-break: normal;
   word-wrap: normal;
+  -webkit-box-shadow: 0px 8px 5px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 8px 5px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 8px 5px -8px rgba(0,0,0,0.75);
 }
 pre code {
   white-space: inherit;
+}
+
+section.normal strong {
+  color: #2879CB;
+}
+
+section.normal h1  {
+  color: #2879CB;
+}
+
+section.normal h2  {
+  color: #2879CB;
+}
+
+section.normal h3  {
+  color: #2879CB;
+}
+
+section.normal h4  {
+  color: #2879CB;
+}
+
+section.normal h5  {
+  color: #2879CB;
+}
+
+section.normal h6  {
+  color: #2879CB;
+}
+
+.btn-default {
+  border-style: solid;
+}
+
+.btn {
+  background-color: #2879CB; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.book-header.fixed a:link { 
+  background-color:#FFF;
+  color: #2879CB
+}
+.book-header.fixed a:visited{ 
+  background-color:#FFF;
+  color: #2879CB
+}
+.book-header.fixed a:hover{ 
+  background-color:#FFF;
+  color: #2879CB
+}
+.book-header.fixed a:active{ 
+  background-color:#FFF;
+  color: #2879CB
+}
+.book-header { 
+  border-color: #fff!important;
+}
+
+.page-wrapper a:link { color: #2879CB !important; }
+.page-wrapper a:visited { color: #2879CB !important; }
+.page-wrapper a:hover { color: #2879CB !important; }
+.page-wrapper a:active { color: #2879CB !important; }
+
+.dropdown-menu .buttons .button {
+    color: #2879CB;
+}
+
+/* notes */
+.rmdnote {
+  background-color: #f5f5f5;
+  margin: 2em 0;
+  padding: 12px 24px 12px 30px;
+  position: relative;
+  border-bottom: hidden;
+  border-top: hidden;
+  border-right: hidden;
+}
+
+.rmdnote{
+  border-left: 4px solid #ffcb00;
+}
+
+.rmdnote:before{
+  background-color: #FF6633;
+  border-radius: 100%;
+  color: #fff;
+  content: "!";
+  font-size: 14px;
+  font-weight: 700;
+  left: -12px;
+  line-height: 20px;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  top: 14px;
 }

@@ -35,4 +35,5 @@ gifs
 videos
 r-code
 compact-shiny
+partial-screen
 full-screen-shiny
