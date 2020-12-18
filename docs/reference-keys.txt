@@ -1,6 +1,6 @@
 fig:nice-fig
 tab:nice-tab
-home
+new-home
 intro
 charting
 ggplot2
