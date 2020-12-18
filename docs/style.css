@@ -31,31 +31,31 @@ pre code {
 }
 
 section.normal strong {
-  color: #2879CB;
+  color: #333f50;
 }
 
 section.normal h1  {
-  color: #2879CB;
+  color: #333f50;
 }
 
 section.normal h2  {
-  color: #2879CB;
+  color: #333f50;
 }
 
 section.normal h3  {
-  color: #2879CB;
+  color: #333f50;
 }
 
 section.normal h4  {
-  color: #2879CB;
+  color: #333f50;
 }
 
 section.normal h5  {
-  color: #2879CB;
+  color: #333f50;
 }
 
 section.normal h6  {
-  color: #2879CB;
+  color: #333f50;
 }
 
 .btn-default {
@@ -63,7 +63,7 @@ section.normal h6  {
 }
 
 .btn {
-  background-color: #2879CB; /* Green */
+  background-color: #333f50; /* Green */
   border: none;
   color: white;
   padding: 10px 22px;
@@ -74,31 +74,31 @@ section.normal h6  {
 
 .book-header.fixed a:link { 
   background-color:#FFF;
-  color: #2879CB
+  color: #333f50
 }
 .book-header.fixed a:visited{ 
   background-color:#FFF;
-  color: #2879CB
+  color: #333f50
 }
 .book-header.fixed a:hover{ 
   background-color:#FFF;
-  color: #2879CB
+  color: #333f50
 }
 .book-header.fixed a:active{ 
   background-color:#FFF;
-  color: #2879CB
+  color: #333f50
 }
 .book-header { 
   border-color: #fff!important;
 }
 
-.page-wrapper a:link { color: #2879CB !important; }
-.page-wrapper a:visited { color: #2879CB !important; }
-.page-wrapper a:hover { color: #2879CB !important; }
-.page-wrapper a:active { color: #2879CB !important; }
+.page-wrapper a:link { color: #333f50 !important; }
+.page-wrapper a:visited { color: #333f50 !important; }
+.page-wrapper a:hover { color: #333f50 !important; }
+.page-wrapper a:active { color: #333f50 !important; }
 
 .dropdown-menu .buttons .button {
-    color: #2879CB;
+    color: #333f50;
 }
 
 /* notes */

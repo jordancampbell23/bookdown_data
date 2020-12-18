@@ -36,4 +36,5 @@ videos
 r-code
 compact-shiny
 partial-screen
+partial-screen-1
 full-screen-shiny

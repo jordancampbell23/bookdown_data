@@ -7,7 +7,7 @@
   bottom: 0;
   z-index: 1;
   color: #FFFFFF;
-  background: #2879CB;
+  background: #333f50;
 }
 
 .book .book-summary ul.summary li a, .book .book-summary ul.summary li span {
@@ -45,7 +45,7 @@ td, tr, th {
 
 table {
   color:white !important;
-  background-color: #2879CB !important;
+  background-color: #333f50 !important;
 }
 
 
